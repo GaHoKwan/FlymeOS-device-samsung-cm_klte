@@ -1,0 +1,183 @@
+===================================
+Since Sun Apr 26 14:04:13 UTC 2015
+===================================
+
+   * frameworks/base
+cd09f25 services: button brightness should check proximity
+
+   * frameworks/opt/telephony
+ec9bdb6 telephony: save plmn lookup value to ServiceState
+
+   * packages/apps/Dialer
+2ec7adf Dialer: Whitelist few EU countries for call recording
+
+   * packages/apps/Settings
+5757184 Settings: Add config for not allowing calls/sms being set to > slot 1
+d19418e Revert "Settings: use correct default value for backlight brightness"
+
+   * packages/apps/Trebuchet
+22c34f7 Clean up scrolling 	- Eliminate creation of garbage 	- Square up interface 	- Post animation signals to handler so they can be cancelled and redispatched 		with new data for the updated signal.
+5d2f7ac Fix CustomContent display issue.
+c9e5b1a Trebuchet: always set initial wallpaper offsets
+
+   * packages/services/Telephony
+e617292 TeleService: Remove HomeAsUp arrow for nested pref screens
+
+===================================
+Since Sat Apr 25 11:56:49 UTC 2015
+===================================
+
+   * device/samsung/qcom-common
+7aef2f1 qcom-common: Remove obsolete system properties
+
+   * frameworks/base
+428c2dc Prevent infinite layout and wallpaper flashing
+
+   * packages/apps/Contacts
+16a811a Contacts : Align attribute field properly
+
+===================================
+Since Thu Apr 23 13:43:33 UTC 2015
+===================================
+
+   * external/google
+548f0cb Fix build
+ec75164 google: Update to v3 analytics.
+
+   * frameworks/base
+ce9b1f5 Automatic translation import
+b135a17 In guest mode, plug in the charger, low battery notification don't disappear
+82069fc SystemUI: move keyguard visualizer behind notifications
+39101c0 Revert "Revert "Revert "Boot up optimization for phoneprocess"""
+
+   * frameworks/opt/telephony
+c4d59b8 frameworks: telephony: SPN display should check cdma.home sys prop
+
+   * packages/apps/CMFileManager
+ae9b612 Automatic translation import
+
+   * packages/apps/Calculator
+ef0a1c6 Automatic translation import
+
+   * packages/apps/Calendar
+47e4634 Automatic translation import
+
+   * packages/apps/Contacts
+47f140e Automatic translation import
+
+   * packages/apps/ContactsCommon
+2e760cf Automatic translation import
+245959a ContactsCommon : Remove pending request for get contact bitmaps
+
+   * packages/apps/Dialer
+140b206 Automatic translation import
+b0f6c11 Use "unknown" in filename if call recording phone number undefined
+
+   * packages/apps/Eleven
+ce7657d Automatic translation import
+
+   * packages/apps/Email
+0ddb08e Automatic translation import
+
+   * packages/apps/Gallery2
+024bba0 Automatic translation import
+
+   * packages/apps/InCallUI
+351c386 Automatic translation import
+
+   * packages/apps/LockClock
+b30dae4 Automatic translation import
+
+   * packages/apps/Mms
+ef6cc30 Automatic translation import
+
+   * packages/apps/Settings
+73edbe7 Automatic translation import
+2cc3ae2 Settings: update About screen device model fields
+206af7a Settings: use correct default value for backlight brightness
+3d473ce Settings: Rebase against GoogleAnalyticsV3.
+6b090c5 Settings: Move CMStats under Privacy settings.
+fcf6f4f Settings: Map to new Secure Setting for Stats Collection.
+6988c60 Settings: Migrate stats opt out to global settings.
+8140944 Use SSL for submitting stats
+7aaa04c ReportingService: Fix service startup
+f4c1b59 Settings: Update Anonymous Stats Implementation.
+a43ff2c Settings: Anonymous Statistics (CMStats)
+ee312a0 Settings: pass intent extra EXTRA_REQUIRE_PASSWORD after selecting pattern size
+197eedf Settings: Update sync widget state
+
+   * packages/apps/SetupWizard
+9a61089 Automatic translation import
+
+   * packages/apps/Terminal
+aca5310 Automatic translation import
+
+   * packages/apps/ThemeChooser
+ad8cdee Automatic translation import
+
+   * packages/apps/Trebuchet
+b53f60b Trebuchet: Skip sorting again when sorted by Title when launching app view
+
+   * packages/apps/UnifiedEmail
+82eba9d Automatic translation import
+
+   * packages/providers/ThemesProvider
+51ac340 Don't assume all default components come from one package
+
+   * packages/services/Telecomm
+0e7c4dc Automatic translation import
+
+   * packages/services/Telephony
+48e3815 Automatic translation import
+
+   * packages/wallpapers/PhotoPhase
+41d0e65 Automatic translation import
+
+   * system/core
+105ddef System/core: Use memmove
+
+   * vendor/cm
+a6d01ad Update Smartfren APN protocol to IPV4V6
+
+===================================
+Since Wed Apr 22 11:20:03 UTC 2015
+===================================
+
+   * external/wpa_supplicant_8
+6f5b05b P2P: Validate SSID element length before copying it
+
+   * frameworks/base
+c1bac80 Protected Apps: do not filter components from the same UID
+
+   * packages/apps/ContactsCommon
+ce096ac ContactsCommon : Only use default requests if one is not provided
+
+   * packages/apps/Mms
+5372ace Mms : Add missing show() on Toast for unsupported Calendar app
+
+   * packages/apps/Settings
+1895a30 Don't save dialog changes when hitting 'cancel'.
+
+   * packages/apps/Trebuchet
+50f78e3 Handle theme changes
+
+===================================
+Since Tue Apr 21 11:53:24 UTC 2015
+===================================
+
+   * device/qcom/sepolicy
+ca33432 uncrypt needs to write to the BCB
+
+   * packages/apps/CMFileManager
+d6e5e69 [CMFileManager] Fix "File Manager isn't responding..." pops up after tapping "Secure storage" in File Manager
+164c3d9 Improve string for crowdin
+39d653a [CMFileManager] Fix the DrawerLayout don't disapper after press back key.
+889a29e Make the new filename max length error message show.
+
+   * packages/apps/Settings
+5f7666c Settings: Fix Sound & notification FC on Settings shortcut widget
+
+   * packages/services/Telephony
+82c3a8d Telephony: Add roaming mode options to mobile network settings
+522e09c Telephony : Dismiss if up button is pressed
+
