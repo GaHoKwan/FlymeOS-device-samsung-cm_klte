@@ -7,7 +7,7 @@
 # The default value is base.
 # Support values: base, base_cm, base_mt6592 and other devices in the future.
 #-----------------------------------------------------------------------------
-#BASE := base_cm
+BASE := base_cm
 
 ##############################################################################
 # The value is used for resource adapter with the aapt tool.
@@ -40,7 +40,7 @@ vendor_modify_images := boot
 # The default value is app or pri-app which not need to configure.
 # You can configure the directory name which relative to the vendor/system directory.
 #-----------------------------------------------------------------------------
-vendor_remove_dirs := vendor/bundled-app
+#vendor_remove_dirs := vendor/operator/app
 
 ##############################################################################
 # The value decides the file which you want to remove in the vendor directory for the ota package.
@@ -54,10 +54,9 @@ vendor_remove_dirs := vendor/bundled-app
 # The default value is Bluetooth.
 # You can configure the apk name in the vendor/system/app or vendor/system/pri-app directory.
 #-----------------------------------------------------------------------------
-vendor_saved_apps := AntHalService Bluetooth BluetoothExt com.qualcomm.location ConfigPanel NfcNci PPPreference QuickBoot qcrilmsgtunnel shutdownlistener TimeService CameraNext MaxxAudioFX \
-                     KeyChain HTMLViewer UserDictionaryProvider BackupRestoreConfirmation \
+vendor_saved_apps := Bluetooth com.qualcomm.location NfcNci KeyChain Tag HTMLViewer UserDictionaryProvider BackupRestoreConfirmation TimeService \
                      FusedLocation PrintSpooler SharedStorageBackup  ExternalStorageProvider InputDevices \
-                     ProxyHandler Shell DefaultContainerService
+                     ProxyHandler Shell DefaultContainerService WAPPushManager
 
 ##############################################################################
 # The value decides which vendor apk you want to modify.
@@ -75,7 +74,7 @@ vendor_saved_apps := AntHalService Bluetooth BluetoothExt com.qualcomm.location 
 # You need to decode android.policy.jar to the project directory (use apktool d android.policy.jar) first,
 # and then you can make it by:   make android.policy
 #-----------------------------------------------------------------------------
-vendor_modify_jars := android.policy ext framework services telephony-common
+vendor_modify_jars := android.policy framework services telephony-common
 
 ##############################################################################
 # The value decides which board system directory you want to save.
