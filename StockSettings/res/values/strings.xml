@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="aosp_camera">MIUI Camera</string>
+    <string name="aosp_camera">Flyme Camera</string>
     <string name="app_name">StockSettings</string>
     <string name="battery">Battery Save</string>
     <string name="boeffla">BoefflaSettings</string>

@@ -11,6 +11,7 @@
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
         </activity>
+        <activity android:name="cn.nian.stocksettings.CameraActivity"/>
         <receiver android:name="cn.nian.stocksettings.Startup">
             <intent-filter android:priority="999">
                 <action android:name="android.intent.action.BOOT_COMPLETED"/>
