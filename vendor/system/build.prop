@@ -30,6 +30,7 @@ ro.product.locale.region=CN
 ro.wifi.channels=
 ro.board.platform=msm8974
 ro.build.characteristics=default
+ro.product.device=klte
 ro.cm.device=klte
 # end build properties
 #

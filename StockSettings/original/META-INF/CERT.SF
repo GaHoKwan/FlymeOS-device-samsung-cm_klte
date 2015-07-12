@@ -1,0 +1,28 @@
+Signature-Version: 1.0
+Created-By: 1.0 (Android SignApk)
+SHA1-Digest-Manifest: z+o9vwEfojYIWpcHtwAw3SRlDfg=
+
+Name: res/xml/stocksettings.xml
+SHA1-Digest: gL7CAMHQ0vdnJbgQuYJGylQmdH4=
+
+Name: AndroidManifest.xml
+SHA1-Digest: WtLpyxXqmUaAlgv/gw0ce9nyvUw=
+
+Name: res/layout/preference_dialog_vibrator_tuning.xml
+SHA1-Digest: guPiVLjxO/sZo1YfN0hYd6W3GC4=
+
+Name: res/mipmap-hdpi/ic_launcher.png
+SHA1-Digest: HkjlSpOhPXCGljWRC182xoguW3Y=
+
+Name: res/mipmap-xhdpi/ic_launcher.png
+SHA1-Digest: aoLhah21G7fp26T/m6Jmf+J3DkU=
+
+Name: resources.arsc
+SHA1-Digest: TGUxrMrKhmHkZyHTHxOVNW8R5/M=
+
+Name: classes.dex
+SHA1-Digest: b+q/Cn89Eb7ZTQTz9sIAZMOFygA=
+
+Name: res/xml/cameraswitch.xml
+SHA1-Digest: srPtLjA/spQUpBVkXi2immesVPc=
+
