@@ -1,0 +1,3 @@
+    <PreferenceScreen android:id="@id/manufacturer_settings" android:title="附加设置" android:key="customise_theme">
+        <intent android:targetPackage="cn.nian.stocksettings" android:action="android.intent.action.MAIN" android:targetClass="cn.nian.stocksettings.StockSettingsActivity" />
+    </PreferenceScreen>
