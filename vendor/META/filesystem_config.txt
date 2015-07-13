@@ -106,6 +106,8 @@ system/app/SoundRecorder 0 0 755 selabel=u:object_r:system_file:s0 capabilities=
 system/app/SoundRecorder/SoundRecorder.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/Stk 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/Stk/Stk.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/app/StockSettings 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
+system/app/StockSettings/StockSettings.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/Terminal 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/Terminal/lib 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/Terminal/lib/arm 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0

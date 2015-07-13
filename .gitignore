@@ -2,3 +2,4 @@
 /board/*
 /autopatch/*
 /out/*
+/sync.sh
