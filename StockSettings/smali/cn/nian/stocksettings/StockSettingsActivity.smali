@@ -126,6 +126,312 @@
     goto :goto_0
 .end method
 
+.method public static RestoremBattery(Landroid/content/Context;)V
+    .locals 3
+    .param p0, "paramContext"    # Landroid/content/Context;
+
+    .prologue
+    const/4 v2, 0x1
+
+    .line 160
+    invoke-static {p0}, Landroid/preference/PreferenceManager;->getDefaultSharedPreferences(Landroid/content/Context;)Landroid/content/SharedPreferences;
+
+    move-result-object v0
+
+    const-string v1, "battery"
+
+    invoke-interface {v0, v1, v2}, Landroid/content/SharedPreferences;->getBoolean(Ljava/lang/String;Z)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_1
+
+    .line 161
+    const-string v0, "echo \'zzmoove\' >/sys/devices/system/cpu/cpu0/cpufreq/scaling_governor"
+
+    invoke-static {v0}, Lcn/nian/stocksettings/RootCmd;->RunRootCmd(Ljava/lang/String;)I
+
+    .line 162
+    const-string v0, "echo \'3\' > /sys/devices/system/cpu/cpufreq/zzmoove/profile_number"
+
+    invoke-static {v0}, Lcn/nian/stocksettings/RootCmd;->RunRootCmd(Ljava/lang/String;)I
+
+    .line 163
+    const-string v0, "echo \'1497600\' > /sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq"
+
+    invoke-static {v0}, Lcn/nian/stocksettings/RootCmd;->RunRootCmd(Ljava/lang/String;)I
+
+    .line 178
+    :cond_0
+    :goto_0
+    return-void
+
+    .line 169
+    :cond_1
+    invoke-static {p0}, Landroid/preference/PreferenceManager;->getDefaultSharedPreferences(Landroid/content/Context;)Landroid/content/SharedPreferences;
+
+    move-result-object v0
+
+    const-string v1, "battery"
+
+    invoke-interface {v0, v1, v2}, Landroid/content/SharedPreferences;->getBoolean(Ljava/lang/String;Z)Z
+
+    move-result v0
+
+    if-nez v0, :cond_0
+
+    .line 170
+    const-string v0, "echo \'zzmoove\' >/sys/devices/system/cpu/cpu0/cpufreq/scaling_governor"
+
+    invoke-static {v0}, Lcn/nian/stocksettings/RootCmd;->RunRootCmd(Ljava/lang/String;)I
+
+    .line 171
+    const-string v0, "echo \'7\' > /sys/devices/system/cpu/cpufreq/zzmoove/profile_number"
+
+    invoke-static {v0}, Lcn/nian/stocksettings/RootCmd;->RunRootCmd(Ljava/lang/String;)I
+
+    .line 172
+    const-string v0, "echo \'2457600\' > /sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq"
+
+    invoke-static {v0}, Lcn/nian/stocksettings/RootCmd;->RunRootCmd(Ljava/lang/String;)I
+
+    goto :goto_0
+.end method
+
+.method public static RestoreKeylight(Landroid/content/Context;)V
+    .locals 3
+    .param p0, "paramContext"    # Landroid/content/Context;
+
+    .prologue
+    const/4 v2, 0x1
+
+    .line 223
+    invoke-static {p0}, Landroid/preference/PreferenceManager;->getDefaultSharedPreferences(Landroid/content/Context;)Landroid/content/SharedPreferences;
+
+    move-result-object v0
+
+    const-string v1, "keylights"
+
+    invoke-interface {v0, v1, v2}, Landroid/content/SharedPreferences;->getBoolean(Ljava/lang/String;Z)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_1
+
+    .line 224
+    const-string v0, "chmod 666 /sys/class/sec/sec_touchkey/brightness"
+
+    invoke-static {v0}, Lcn/nian/stocksettings/RootCmd;->RunRootCmd(Ljava/lang/String;)I
+
+    .line 225
+    const-string v0, "echo \'0\' > /sys/class/sec/sec_touchkey/brightness"
+
+    invoke-static {v0}, Lcn/nian/stocksettings/RootCmd;->RunRootCmd(Ljava/lang/String;)I
+
+    .line 226
+    const-string v0, "chmod 444 /sys/class/sec/sec_touchkey/brightness"
+
+    invoke-static {v0}, Lcn/nian/stocksettings/RootCmd;->RunRootCmd(Ljava/lang/String;)I
+
+    .line 232
+    :cond_0
+    :goto_0
+    return-void
+
+    .line 227
+    :cond_1
+    invoke-static {p0}, Landroid/preference/PreferenceManager;->getDefaultSharedPreferences(Landroid/content/Context;)Landroid/content/SharedPreferences;
+
+    move-result-object v0
+
+    const-string v1, "keylights"
+
+    invoke-interface {v0, v1, v2}, Landroid/content/SharedPreferences;->getBoolean(Ljava/lang/String;Z)Z
+
+    move-result v0
+
+    if-nez v0, :cond_0
+
+    .line 229
+    const-string v0, "echo \'1\' > /sys/class/sec/sec_touchkey/brightness"
+
+    invoke-static {v0}, Lcn/nian/stocksettings/RootCmd;->RunRootCmd(Ljava/lang/String;)I
+
+    .line 230
+    const-string v0, "chmod 666 /sys/class/sec/sec_touchkey/brightness"
+
+    invoke-static {v0}, Lcn/nian/stocksettings/RootCmd;->RunRootCmd(Ljava/lang/String;)I
+
+
+    goto :goto_0
+.end method
+
+.method public static RestoremCharge(Landroid/content/Context;)V
+    .locals 3
+    .param p0, "paramContext"    # Landroid/content/Context;
+
+    .prologue
+    const/4 v2, 0x1
+
+    .line 205
+    invoke-static {p0}, Landroid/preference/PreferenceManager;->getDefaultSharedPreferences(Landroid/content/Context;)Landroid/content/SharedPreferences;
+
+    move-result-object v0
+
+    const-string v1, "charge"
+
+    invoke-interface {v0, v1, v2}, Landroid/content/SharedPreferences;->getBoolean(Ljava/lang/String;Z)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_1
+
+    .line 206
+    const-string v0, "echo \'1950 mA\' > /sys/kernel/charge_levels/charge_level_ac"
+
+    invoke-static {v0}, Lcn/nian/stocksettings/RootCmd;->RunRootCmd(Ljava/lang/String;)I
+
+    .line 207
+    const-string v0, "echo \'950 mA\' > /sys/kernel/charge_levels/charge_level_usb"
+
+    invoke-static {v0}, Lcn/nian/stocksettings/RootCmd;->RunRootCmd(Ljava/lang/String;)I
+
+    .line 212
+    :cond_0
+    :goto_0
+    return-void
+
+    .line 208
+    :cond_1
+    invoke-static {p0}, Landroid/preference/PreferenceManager;->getDefaultSharedPreferences(Landroid/content/Context;)Landroid/content/SharedPreferences;
+
+    move-result-object v0
+
+    const-string v1, "charge"
+
+    invoke-interface {v0, v1, v2}, Landroid/content/SharedPreferences;->getBoolean(Ljava/lang/String;Z)Z
+
+    move-result v0
+
+    if-nez v0, :cond_0
+
+    .line 209
+    const-string v0, "echo \'0 mA\' > /sys/kernel/charge_levels/charge_level_ac"
+
+    invoke-static {v0}, Lcn/nian/stocksettings/RootCmd;->RunRootCmd(Ljava/lang/String;)I
+
+    .line 210
+    const-string v0, "echo \'0 mA\' > /sys/kernel/charge_levels/charge_level_usb"
+
+    invoke-static {v0}, Lcn/nian/stocksettings/RootCmd;->RunRootCmd(Ljava/lang/String;)I
+
+    goto :goto_0
+.end method
+
+.method public static RestoremKnock(Landroid/content/Context;)V
+    .locals 3
+    .param p0, "paramContext"    # Landroid/content/Context;
+
+    .prologue
+    const/4 v2, 0x1
+
+    .line 194
+    invoke-static {p0}, Landroid/preference/PreferenceManager;->getDefaultSharedPreferences(Landroid/content/Context;)Landroid/content/SharedPreferences;
+
+    move-result-object v0
+
+    const-string v1, "knock"
+
+    invoke-interface {v0, v1, v2}, Landroid/content/SharedPreferences;->getBoolean(Ljava/lang/String;Z)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_1
+
+    .line 195
+    const-string v0, "echo \'5\' > /sys/devices/f9924000.i2c/i2c-2/2-0020/input/input2/screen_wake_options"
+
+    invoke-static {v0}, Lcn/nian/stocksettings/RootCmd;->RunRootCmd(Ljava/lang/String;)I
+
+    .line 202
+    :cond_0
+    :goto_0
+    return-void
+
+    .line 199
+    :cond_1
+    invoke-static {p0}, Landroid/preference/PreferenceManager;->getDefaultSharedPreferences(Landroid/content/Context;)Landroid/content/SharedPreferences;
+
+    move-result-object v0
+
+    const-string v1, "knock"
+
+    invoke-interface {v0, v1, v2}, Landroid/content/SharedPreferences;->getBoolean(Ljava/lang/String;Z)Z
+
+    move-result v0
+
+    if-nez v0, :cond_0
+
+    .line 200
+    const-string v0, "echo \'0\' > /sys/devices/f9924000.i2c/i2c-2/2-0020/input/input2/screen_wake_options"
+
+    invoke-static {v0}, Lcn/nian/stocksettings/RootCmd;->RunRootCmd(Ljava/lang/String;)I
+
+    goto :goto_0
+.end method
+
+.method public static RestoremLedFake(Landroid/content/Context;)V
+    .locals 3
+    .param p0, "paramContext"    # Landroid/content/Context;
+
+    .prologue
+    const/4 v2, 0x1
+
+    .line 183
+    invoke-static {p0}, Landroid/preference/PreferenceManager;->getDefaultSharedPreferences(Landroid/content/Context;)Landroid/content/SharedPreferences;
+
+    move-result-object v0
+
+    const-string v1, "led_fade"
+
+    invoke-interface {v0, v1, v2}, Landroid/content/SharedPreferences;->getBoolean(Ljava/lang/String;Z)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_1
+
+    .line 184
+    const-string v0, "echo \'1\' > /sys/class/sec/led/led_fade"
+
+    invoke-static {v0}, Lcn/nian/stocksettings/RootCmd;->RunRootCmd(Ljava/lang/String;)I
+
+    .line 191
+    :cond_0
+    :goto_0
+    return-void
+
+    .line 188
+    :cond_1
+    invoke-static {p0}, Landroid/preference/PreferenceManager;->getDefaultSharedPreferences(Landroid/content/Context;)Landroid/content/SharedPreferences;
+
+    move-result-object v0
+
+    const-string v1, "led_fade"
+
+    invoke-interface {v0, v1, v2}, Landroid/content/SharedPreferences;->getBoolean(Ljava/lang/String;Z)Z
+
+    move-result v0
+
+    if-nez v0, :cond_0
+
+    .line 189
+    const-string v0, "echo \'0\' > /sys/class/sec/led/led_fade"
+
+    invoke-static {v0}, Lcn/nian/stocksettings/RootCmd;->RunRootCmd(Ljava/lang/String;)I
+
+    goto :goto_0
+.end method
+
 # virtual methods
 .method public DialogReboot()V
     .locals 3

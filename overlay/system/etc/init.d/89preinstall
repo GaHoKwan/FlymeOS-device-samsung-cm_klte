@@ -23,13 +23,13 @@ if [ ! -d $PRELOAD_APP_DIR ]; then
 fi
 
 for libfile in `ls $PRELOAD_LIB_DIR`; do
-	if [ "$count" == "1" ]; then
+	if [ "$count" == "2" ]; then
 		cp $PRELOAD_LIB_DIR/$libfile $LIBDIR
 	fi
 done
 
 for apkfile in `ls $PRELOAD_APP_DIR`; do
-	if [ "$count" == "1" ]; then
+	if [ "$count" == "2" ]; then
 		cp $PRELOAD_APP_DIR/$apkfile $APPDIR
 	fi
 done

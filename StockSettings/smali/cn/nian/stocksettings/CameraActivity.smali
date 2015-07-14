@@ -95,17 +95,17 @@
     invoke-static {v0}, Lcn/nian/stocksettings/RootCmd;->RunRootCmd(Ljava/lang/String;)I
 
     .line 37
-    const-string v0, "rm -rf /system/app/Camera.apk"
+    const-string v0, "rm -rf /system/app/Camera"
 
     invoke-static {v0}, Lcn/nian/stocksettings/RootCmd;->RunRootCmd(Ljava/lang/String;)I
 
     .line 38
-    const-string v0, "cp /system/app/CameraDir/MzCamera.apk /system/app/Camera.apk"
+    const-string v0, "cp -r /system/app/CameraDir/MzCamera /system/app/Camera"
 
     invoke-static {v0}, Lcn/nian/stocksettings/RootCmd;->RunRootCmd(Ljava/lang/String;)I
 
     .line 39
-    const-string v0, "\u5f53\u524d\u76f8\u673a\u5df2\u7ecf\u8bbe\u7f6e\u4e3aFlyme\u76f8\u673a"
+    const-string v0, "\u76f8\u673a\u8bbe\u7f6e\u4e3a\u0046\u006c\u0079\u006d\u0065\u76f8\u673a\u002c\u8bf7\u91cd\u542f\u624b\u673a"
 
     invoke-static {p0, v0, v1}, Landroid/widget/Toast;->makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;
 
@@ -125,17 +125,17 @@
     invoke-static {v0}, Lcn/nian/stocksettings/RootCmd;->RunRootCmd(Ljava/lang/String;)I
 
     .line 43
-    const-string v0, "rm -rf /system/app/Camera.apk"
+    const-string v0, "rm -rf /system/app/Camera"
 
     invoke-static {v0}, Lcn/nian/stocksettings/RootCmd;->RunRootCmd(Ljava/lang/String;)I
 
     .line 44
-    const-string v0, "cp /system/app/CameraDir/cm_camera.apk /system/app/Camera.apk"
+    const-string v0, "cp -r /system/app/CameraDir/cm_camera /system/app/Camera"
 
     invoke-static {v0}, Lcn/nian/stocksettings/RootCmd;->RunRootCmd(Ljava/lang/String;)I
 
     .line 45
-    const-string v0, "\u5f53\u524d\u76f8\u673a\u5df2\u7ecf\u8bbe\u7f6e\u4e3aCM\u76f8\u673a"
+    const-string v0, "\u76f8\u673a\u8bbe\u7f6e\u4e3a\u0043\u004d\u76f8\u673a\u002c\u8bf7\u91cd\u542f\u624b\u673a"
 
     invoke-static {p0, v0, v1}, Landroid/widget/Toast;->makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;
 
@@ -155,17 +155,17 @@
     invoke-static {v0}, Lcn/nian/stocksettings/RootCmd;->RunRootCmd(Ljava/lang/String;)I
 
     .line 49
-    const-string v0, "rm -rf /system/app/Camera.apk"
+    const-string v0, "rm -rf /system/app/Camera"
 
     invoke-static {v0}, Lcn/nian/stocksettings/RootCmd;->RunRootCmd(Ljava/lang/String;)I
 
     .line 50
-    const-string v0, "cp /system/app/CameraDir/nubia_camera.apk /system/app/Camera.apk"
+    const-string v0, "cp -r /system/app/CameraDir/nubia_camera /system/app/Camera"
 
     invoke-static {v0}, Lcn/nian/stocksettings/RootCmd;->RunRootCmd(Ljava/lang/String;)I
 
     .line 51
-    const-string v0, "\u5f53\u524d\u76f8\u673a\u5df2\u7ecf\u8bbe\u7f6e\u4e3aNubia\u76f8\u673a"
+    const-string v0, "\u76f8\u673a\u8bbe\u7f6e\u4e3a\u004e\u0075\u0062\u0069\u0061\u76f8\u673a\u002c\u8bf7\u91cd\u542f\u624b\u673a"
 
     invoke-static {p0, v0, v1}, Landroid/widget/Toast;->makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;
 
