@@ -14,7 +14,6 @@
     </PreferenceCategory>
     <PreferenceCategory android:title="@string/keylight">
         <CheckBoxPreference android:title="@string/touchkey_light_title_head" android:key="keylights" android:summary="@string/touchkey_light_summary_head" android:defaultValue="true" />
-        <cn.nian.stocksettings.VibratorTuning android:title="@string/vibrator_tuning_title" android:key="vibrator_tuning" android:dialogTitle="@string/vibrator_tuning_title" />
     </PreferenceCategory>
     <PreferenceCategory android:title="@string/screen" android:key="screen">
         <CheckBoxPreference android:title="@string/kcal_sat_title_head" android:key="kcal_sat" android:summary="@string/kcal_sat_summary_head" android:defaultValue="false" />

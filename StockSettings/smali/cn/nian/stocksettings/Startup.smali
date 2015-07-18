@@ -37,7 +37,6 @@
     invoke-static {p1}, Lcn/nian/stocksettings/mDNIeMode;->restore(Landroid/content/Context;)V
 
     .line 18
-    invoke-static {p1}, Lcn/nian/stocksettings/StockSettingsActivity;->RestoreKeylight(Landroid/content/Context;)V
 
     .line 19
     invoke-static {p1}, Lcn/nian/stocksettings/StockSettingsActivity;->RestoremLedFake(Landroid/content/Context;)V

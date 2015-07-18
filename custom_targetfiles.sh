@@ -11,7 +11,7 @@ then
    cp $OVERLAY_DIR/bin/updater $TARGET_FILES_DIR/OTA/bin
 fi
 
-if [ -e $TARGET_FILES_DIR/SYSTEM/app/Camera ]
+if [ -d $TARGET_FILES_DIR/SYSTEM/app/Camera ]
 then
    cp -r $TARGET_FILES_DIR/SYSTEM/app/Camera $TARGET_FILES_DIR/SYSTEM/app/CameraDir/MzCamera
 fi
