@@ -25,25 +25,6 @@
     .line 13
     invoke-static {p1}, Lcn/nian/stocksettings/StockSettingsActivity;->RestoreCABC(Landroid/content/Context;)V
 
-    .line 14
-    invoke-static {p1}, Lcn/nian/stocksettings/StockSettingsActivity;->RestoremKnock(Landroid/content/Context;)V
-
-    .line 15
-
-    .line 16
-    invoke-static {p1}, Lcn/nian/stocksettings/mDNIeScenario;->restore(Landroid/content/Context;)V
-
-    .line 17
-    invoke-static {p1}, Lcn/nian/stocksettings/mDNIeMode;->restore(Landroid/content/Context;)V
-
-    .line 18
-
-    .line 19
-    invoke-static {p1}, Lcn/nian/stocksettings/StockSettingsActivity;->RestoremLedFake(Landroid/content/Context;)V
-
-    .line 21
-    invoke-static {p1}, Lcn/nian/stocksettings/StockSettingsActivity;->RestoremCharge(Landroid/content/Context;)V
-
     .line 33
     return-void
 .end method

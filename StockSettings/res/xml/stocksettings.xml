@@ -18,8 +18,6 @@
     <PreferenceCategory android:title="@string/screen" android:key="screen">
         <CheckBoxPreference android:title="@string/kcal_sat_title_head" android:key="kcal_sat" android:summary="@string/kcal_sat_summary_head" android:defaultValue="false" />
         <CheckBoxPreference android:title="@string/cabc_title_head" android:key="cabc" android:summary="@string/cabc_summary_head" android:defaultValue="true" />
-        <cn.nian.stocksettings.mDNIeScenario android:entries="@array/mdnie_scenario_entries" android:title="@string/mdnie_scenario_title_head" android:key="mdnie_scenario" android:summary="@string/mdnie_scenario_summary_head" android:defaultValue="0" android:entryValues="@array/mdnie_scenario_entries_values" />
-        <cn.nian.stocksettings.mDNIeMode android:entries="@array/mdnie_mode_entries" android:title="@string/mdnie_mode_title_head" android:key="mdnie_mode" android:summary="@string/mdnie_mode_summary_head" android:defaultValue="1" android:entryValues="@array/mdnie_mode_entries_values" />
         <EditTextPreference android:digits="1234567890" android:title="@string/density_title" android:key="density_key" android:dialogTitle="@string/density_edit_title" android:dialogMessage="@string/density_edit_message" />
     </PreferenceCategory>
     <PreferenceCategory android:title="@string/camera" android:key="camera">
