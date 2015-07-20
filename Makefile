@@ -137,7 +137,8 @@ board_modify_apps := TeleService
 # The default value is FlymeRomer.
 # You should configure the property according to your ID, ie, replace "FlymeRomer" with your ID.
 override_property += \
-    ro.flyme.romer=luo2888
+    ro.flyme.romer=luo2888 \
+    ro.build.display.id=Flyme OS 4.5
 
 ##############################################################################
 # The value decides which property you will remove from the build.prop.
