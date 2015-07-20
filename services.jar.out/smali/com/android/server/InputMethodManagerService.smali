@@ -2579,6 +2579,8 @@
 
     move-result-object v0
 
+    if-eqz v0, :cond_flyme_0
+
     .line 785
     const-string v3, "InputMethodManagerService"
 
@@ -2606,11 +2608,10 @@
 
     invoke-static {v3, v4}, Landroid/util/Slog;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 787
     :cond_4
+    :cond_flyme_0
     if-eqz v0, :cond_0
 
-    .line 788
     const/4 v3, -0x1
 
     const/4 v4, 0x0
