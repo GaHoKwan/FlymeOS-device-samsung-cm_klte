@@ -219,9 +219,9 @@
 
     if-eqz v4, :cond_flyme_0
 
-    #new-instance v0, Landroid/view/animation/ComboAnimation;
+    new-instance v0, Landroid/view/animation/ComboAnimation;
 
-    #invoke-direct {v0, p0, p3}, Landroid/view/animation/ComboAnimation;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {v0, p0, p3}, Landroid/view/animation/ComboAnimation;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     goto :goto_flyme_0
 
@@ -524,9 +524,9 @@
 
     if-eqz v5, :cond_flyme_0
 
-    #new-instance v2, Landroid/view/animation/ValueArrayInterpolator;
+    new-instance v2, Landroid/view/animation/ValueArrayInterpolator;
 
-    #invoke-direct {v2, p0, p1, v0}, Landroid/view/animation/ValueArrayInterpolator;-><init>(Landroid/content/res/Resources;Landroid/content/res/Resources$Theme;Landroid/util/AttributeSet;)V
+    invoke-direct {v2, p0, p1, v0}, Landroid/view/animation/ValueArrayInterpolator;-><init>(Landroid/content/res/Resources;Landroid/content/res/Resources$Theme;Landroid/util/AttributeSet;)V
 
     goto/16 :goto_flyme_0
 
