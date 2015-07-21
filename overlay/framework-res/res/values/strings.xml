@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Add the entry for AdditionalSettings -->
+    <add-resource type="string" name="config_additionalsettings_package"/>
+    <string name="config_additionalsettings_package">cn.nian.stocksettings</string>
+    <add-resource type="string" name="config_additionalsettings_activity"/>
+    <string name="config_additionalsettings_activity">cn.nian.stocksettings.StockSettingsActivity</string>
+
+</resources>
