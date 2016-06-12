@@ -153,6 +153,14 @@
         <item>Standard (Default)</item>
         <item>Performance</item>
     </string-array>
+    <string-array name="touchboot_freq_entries">
+        <item>Default</item>
+        <item>652Mhz</item>
+        <item>960Mhz</item>
+        <item>1190Mhz</item>
+        <item>1728Mhz</item>
+        <item>2265Mhz</item>
+    </string-array>
     <string-array name="wakeup_mode_entries">
         <item>Disable (Default)</item>
         <item>Swipe</item>
@@ -324,6 +332,14 @@
         <item>0</item>
         <item>1</item>
         <item>2</item>
+    </string-array>
+    <string-array name="touchboot_freq_entries_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
     </string-array>
     <string-array name="wakeup_mode_entries_values">
         <item>0</item>

@@ -1,4 +1,4 @@
-.class Lcom/luo2888/flymesettings/DeviceSettings$6;
+.class Lcom/luo2888/flymesettings/DeviceSettings$9;
 .super Ljava/lang/Object;
 .source "DeviceSettings.java"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/luo2888/flymesettings/DeviceSettings;->DialogAttention()V
+    value = Lcom/luo2888/flymesettings/DeviceSettings;->DialogReboot()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -26,8 +26,8 @@
     .locals 0
 
     .prologue
-    .line 1368
-    iput-object p1, p0, Lcom/luo2888/flymesettings/DeviceSettings$6;->this$0:Lcom/luo2888/flymesettings/DeviceSettings;
+    .line 1381
+    iput-object p1, p0, Lcom/luo2888/flymesettings/DeviceSettings$9;->this$0:Lcom/luo2888/flymesettings/DeviceSettings;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -37,14 +37,16 @@
 
 # virtual methods
 .method public onClick(Landroid/content/DialogInterface;I)V
-    .locals 0
+    .locals 1
     .param p1, "dialog"    # Landroid/content/DialogInterface;
     .param p2, "which"    # I
 
     .prologue
-    .line 1371
-    invoke-interface {p1}, Landroid/content/DialogInterface;->dismiss()V
+    .line 1384
+    const-string v0, "reboot"
 
-    .line 1372
+    invoke-static {v0}, Lcom/luo2888/flymesettings/utils/Tools;->Shell(Ljava/lang/String;)I
+
+    .line 1385
     return-void
 .end method

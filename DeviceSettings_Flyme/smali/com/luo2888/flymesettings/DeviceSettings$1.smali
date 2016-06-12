@@ -26,7 +26,7 @@
     .locals 0
 
     .prologue
-    .line 287
+    .line 300
     iput-object p1, p0, Lcom/luo2888/flymesettings/DeviceSettings$1;->this$0:Lcom/luo2888/flymesettings/DeviceSettings;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,12 +42,12 @@
     .param p2, "which"    # I
 
     .prologue
-    .line 289
+    .line 302
     new-instance v1, Landroid/content/Intent;
 
     invoke-direct {v1}, Landroid/content/Intent;-><init>()V
 
-    .line 290
+    .line 303
     .local v1, "intent":Landroid/content/Intent;
     new-instance v0, Landroid/content/ComponentName;
 
@@ -57,26 +57,26 @@
 
     invoke-direct {v0, v2, v3}, Landroid/content/ComponentName;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 291
+    .line 304
     .local v0, "filemanager":Landroid/content/ComponentName;
     const-string v2, "android.intent.action.GET_CONTENT"
 
     invoke-virtual {v1, v2}, Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 292
+    .line 305
     const-string v2, "*/*"
 
     invoke-virtual {v1, v2}, Landroid/content/Intent;->setType(Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 293
+    .line 306
     const-string v2, "android.intent.category.DEFAULT"
 
     invoke-virtual {v1, v2}, Landroid/content/Intent;->addCategory(Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 294
+    .line 307
     invoke-virtual {v1, v0}, Landroid/content/Intent;->setComponent(Landroid/content/ComponentName;)Landroid/content/Intent;
 
-    .line 296
+    .line 309
     :try_start_0
     iget-object v2, p0, Lcom/luo2888/flymesettings/DeviceSettings$1;->this$0:Lcom/luo2888/flymesettings/DeviceSettings;
 
@@ -92,11 +92,11 @@
     :try_end_0
     .catch Landroid/content/ActivityNotFoundException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 301
+    .line 314
     :goto_0
     return-void
 
-    .line 299
+    .line 312
     :catch_0
     move-exception v2
 

@@ -25,9 +25,12 @@ Please abide strictly by the laws, rules and regulations of your area."</string>
     <string name="defaults_button">Reset to default</string>
     <string name="dialog_ok">Done!Are you sure want to reboot the phone?</string>
     <string name="dialog_reboot">Please restart your mobile phone manually in some time later</string>
+    <string name="dialog_root_checking">Checking ROOT</string>
+    <string name="dialog_wait">Please Wait...</string>
     <string name="donate_link">https://qr.alipay.com/9972778039134201</string>
     <string name="donate_summary">If you like my work in making this ROM, you are welcome to treat me some coke:)</string>
     <string name="donate_title">Treat Me Coke</string>
+    <string name="error_root">NO ROOT!</string>
     <string name="find_meizu_camera">The system is being used in the Meizu camera, please turn off the camera sound on the System Settings</string>
     <string name="gestures">Gesture</string>
     <string name="glove_mode_summary_head">Set High Touch Sensitivity</string>
@@ -106,6 +109,14 @@ Please abide strictly by the laws, rules and regulations of your area."</string>
     <string name="running_mode_summary_standard">Current: Standard</string>
     <string name="screen">Screen</string>
     <string name="sounds">Sounds</string>
+    <string name="success_root">Rooted！</string>
+    <string name="touchboost_freq">Input Boost Frequency</string>
+    <string name="touchboost_freq_summary_1190400">Current: 1190Mhz</string>
+    <string name="touchboost_freq_summary_1497600">Default: 1497Mhz</string>
+    <string name="touchboost_freq_summary_1728000">Current: 1728Mhz</string>
+    <string name="touchboost_freq_summary_2265600">Current: 2265Mhz</string>
+    <string name="touchboost_freq_summary_652800">Current: 652Mhz</string>
+    <string name="touchboost_freq_summary_960000">Current: 960Mhz</string>
     <string name="tweak">Tweaks</string>
     <string name="updater_check">Check Updates</string>
     <string name="updater_check_summary">Check OTA Updates</string>

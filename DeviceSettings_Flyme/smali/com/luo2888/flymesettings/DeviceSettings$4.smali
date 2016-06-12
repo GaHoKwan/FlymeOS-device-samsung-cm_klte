@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/luo2888/flymesettings/DeviceSettings;->DialogReboot()V
+    value = Lcom/luo2888/flymesettings/DeviceSettings;->DialogAttentionRoot()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -26,7 +26,7 @@
     .locals 0
 
     .prologue
-    .line 1277
+    .line 1340
     iput-object p1, p0, Lcom/luo2888/flymesettings/DeviceSettings$4;->this$0:Lcom/luo2888/flymesettings/DeviceSettings;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,11 +42,11 @@
     .param p2, "which"    # I
 
     .prologue
-    .line 1280
-    const-string v0, "busybox killall system_server"
+    .line 1343
+    const/4 v0, 0x0
 
-    invoke-static {v0}, Lcom/luo2888/flymesettings/utils/Tools;->Shell(Ljava/lang/String;)I
+    invoke-static {v0}, Ljava/lang/System;->exit(I)V
 
-    .line 1281
+    .line 1344
     return-void
 .end method

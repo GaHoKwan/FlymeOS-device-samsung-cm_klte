@@ -24,9 +24,12 @@
     <string name="defaults_button">默认值</string>
     <string name="dialog_ok">应用成功，是否重启手机？</string>
     <string name="dialog_reboot">请在稍晚些时刻手动重启手机</string>
+    <string name="dialog_root_checking">正在检查ROOT权限</string>
+    <string name="dialog_wait">请稍候...</string>
     <string name="donate_link">https://qr.alipay.com/9972778039134201</string>
     <string name="donate_summary">如果觉得ROM做的还不错，那就请我喝一罐可乐吧:)</string>
     <string name="donate_title">请我喝可乐</string>
+    <string name="error_root">没找到可用的ROOT权限 缺少ROOT权限程序将继续无法工作</string>
     <string name="find_meizu_camera">检测到系统正在使用魅族相机，请同时在系统设置中关闭相机声音</string>
     <string name="gestures">黑屏操作</string>
     <string name="glove_mode_summary_head">提高触摸屏灵敏度</string>
@@ -105,6 +108,14 @@
     <string name="running_mode_summary_standard">当前模式：均衡模式</string>
     <string name="screen">屏幕设置</string>
     <string name="sounds">声音设置</string>
+    <string name="success_root">已获取ROOT权限！</string>
+    <string name="touchboost_freq">触控时CPU频率</string>
+    <string name="touchboost_freq_summary_1190400">当前: 1190赫兹</string>
+    <string name="touchboost_freq_summary_1497600">默认: 1497赫兹</string>
+    <string name="touchboost_freq_summary_1728000">当前: 1728赫兹</string>
+    <string name="touchboost_freq_summary_2265600">当前: 2265赫兹</string>
+    <string name="touchboost_freq_summary_652800">当前: 652赫兹</string>
+    <string name="touchboost_freq_summary_960000">当前: 960赫兹</string>
     <string name="tweak">系统优化</string>
     <string name="updater_check">检查系统更新</string>
     <string name="updater_check_summary">检查更新</string>

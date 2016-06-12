@@ -38,7 +38,7 @@
 
     .prologue
     .line 60
-    const-string v0, "busybox sed -i \'s/ogg/bak/g\' /system/lib/libcameraservice.so"
+    const-string v0, "mv /system/media/audio/ui/camera_click.bak /system/media/audio/ui/camera_click.ogg"
 
     invoke-static {v0}, Lcom/luo2888/flymesettings/utils/Tools;->Shell(Ljava/lang/String;)I
 

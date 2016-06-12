@@ -153,6 +153,14 @@
         <item>均衡模式 (默认)</item>
         <item>性能模式</item>
     </string-array>
+    <string-array name="touchboot_freq_entries">
+        <item>默认</item>
+        <item>652赫兹</item>
+        <item>960赫兹</item>
+        <item>1190赫兹</item>
+        <item>1728赫兹</item>
+        <item>2265赫兹</item>
+    </string-array>
     <string-array name="wakeup_mode_entries">
         <item>关闭 (默认)</item>
         <item>滑动</item>
