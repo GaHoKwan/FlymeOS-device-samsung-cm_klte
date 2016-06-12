@@ -1,0 +1,16 @@
+/board/*
+/autopatch/*
+/out/*
+/overlay/system/etc/boeffla_config-v2
+/overlay/system/etc/init.d/89preinstall
+/overlay/system/app/AMAP/*
+/overlay/system/app/BaiduInput/*
+/overlay/system/app/CM/*
+/overlay/system/app/iqiyi/*
+/overlay/system/app/NewsArticle/*
+/overlay/system/app/QiHooStore/*
+/overlay/system/app/romuc/*
+/overlay/system/app/wandoujia/*
+/vendor/aosp/*
+*.zip
+*.pyc

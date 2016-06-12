@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="mz_action_menu_textcolor_disabled">#4d000000</color>
+    <color name="mz_appcompat_action_menu_textcolor_disabled">#4dffffff</color>
+    <color name="mz_appcompat_action_menu_textcolor_normal">#ffffffff</color>
+    <color name="mz_cir_btn_color_disable">#ffb2b2b2</color>
+    <color name="mz_highlighted_text_light_color_grey">#337e97ac</color>
+    <color name="mz_popup_text_light">#ff000000</color>
+    <color name="mz_popup_text_light_disabled">#4d000000</color>
+    <color name="mz_theme_color_grey">#ff7e97ac</color>
+    <color name="mz_theme_color_grey_pressed">#ff688094</color>
+</resources>

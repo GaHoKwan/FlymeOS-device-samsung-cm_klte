@@ -1,0 +1,246 @@
+===================================
+Since Sun May 24 01:51:05 UTC 2015
+===================================
+
+   * packages/apps/Settings
+408b373 QS: add Sync tile (2/2)
+
+   * packages/apps/Trebuchet
+d15317d Trebuchet : Activate the default homepage selection button on first run
+
+===================================
+Since Sat May 23 06:20:44 UTC 2015
+===================================
+
+   * frameworks/base
+e8b4335 QS: add Sync tile (1/2)
+
+   * kernel/samsung/klte
+0b8d068 cpufreq: interactive: fix compiling warnings
+9fcd052 ARM: dts: klte: Import klte_chn_cmcc DTSI
+
+===================================
+Since Tue May 19 09:01:24 UTC 2015
+===================================
+
+   * android
+ec7c531 5.1.1_r2 -> 5.1.1_r3
+
+   * art
+be62737 Revert "AArch64: Fix incorrect use of preceding LIR."
+
+   * build
+c3cc5ec Merge tag 'android-5.1.1_r3' into HEAD
+
+   * device/samsung/klte-common
+6b9dee2 klte-common: Fixed DTS files list in mkbootimg.mk
+5c3c269 Revert "klte-common: Compile CHN variant DTS files"
+6fcedd4 klte-common: Enable Ambient Display
+ad7fb1b Revert "AmbientDisplay: Enable Ambient Display for klte."
+09d4f66 klte-common: Compile CHN variant DTS files
+
+   * device/samsung/qcom-common
+5652358 doze: Set gesture to disabled by default
+7bc5449 doze: Add service for using proximity sensor for wake-up
+
+   * external/wpa_supplicant_8
+688bbc2 WPS: Fix HTTP chunked transfer encoding parser
+bc7e82d AP WMM: Fix integer underflow in WMM Action frame parser
+
+   * frameworks/base
+5abb0f2 SystemServer: Skip TorchService construction if no flash feature detected
+9ac5aa2 Add alternate WebView provider package
+757c739 base: Fix array bounds exception in getSecondaryStorageState
+1dfc43a unbreak density scaling
+d1689f3 Fix another off-by-one error in computeEllipsis
+eccafdf apps2sd: Only allow "move to ___" if the media is mounted [2/2]
+6ca2651 SystemUI: Move custom tile listener service registration to phonestatusbar.
+03c2f2c VolumePanel: Properly update expanded volume panel sliders
+2196dbf [1/2] Recognized multiple wallpapers in theme
+d9cf18e DreamManager: be aware of device lid
+363abfb VolumePanel: Don't timeout quickly if expanded
+91c7ce9 Align recents clear button to screen edge instead of tasks if close
+47cbe3a fix CTS DisplayTest.testGetMetrics()
+3dcd365 SystemUI: improve dpad arrow key state logic
+d9f1b3d Revert "Remove unnecessary sleep in ActivityThread."
+eb9ff0e Fix bugs regarding delay the dispatching of non-wakeup alarms
+2d55b7c Fix for infinite loop in RemoteViewsAdapter
+2589adf Fix bug of unnecessary wakeups after completed syncs.
+1edb451 Remove the window whose client process has died or become zombie
+6d08c9a Don't relayout based on a window that isn't visible
+7c16969 Not include fullscreen opaque window on screenshot
+1d6f9ba Only one task within the stack should moveToBack
+3a9f515 Fix racing condition of mTouchExcludeRegion
+1ff1e02 Measure absolute value of pointer motion distance
+36697c3 Make ACCESS_THEME_MANAGER permission system|signature
+e99897e Return original value if icon info is null
+6e73ab5 Make default overlay for "spell checker"
+1e7279b BaseStatusBar: Inform StatusBarService if a notification is flagged spam
+6fc65da AudioService: persist volume of ring stream when ringer mode changed
+
+   * frameworks/native
+c5502f1 libgui: bail assertion if sensorservice cannot be found
+
+   * frameworks/opt/telephony
+3f96311 telephony: extend the user notification toggle for restricted mobile access
+5c05255 Make mImsPhone static. DO NOT MERGE ANYWHERE
+
+   * kernel/samsung/klte
+710f093 Revert "msm: Correct Samsung K project dtb entries"
+3ade76a msm: Correct Samsung K project dtb entries
+3ec0de1 ARM: dts: klte: Add kchn variant DTS files
+
+   * packages/apps/CMBugReport
+8bc24d3 CMBugReport: more null checks
+
+   * packages/apps/CMFileManager
+9a75e1b [CMFileManager]Fix CMFileManager sometimes crash.
+0d31e17 [CMFileManager]Fix the FileManager Crash.
+41232db CMFileManager: Improved strings
+0c06f5c [CMFileManager] The remember selection don't work when open a file
+835447a Update Editor Activity to handle Content URI
+
+   * packages/apps/Contacts
+a91eaf7 fix crash in QuickContact on sending contact via sms
+
+   * packages/apps/Eleven
+bacadd7 Merge "Add Landscape support to Eleven" into cm-12.1
+4427680 Add Landscape support to Eleven
+
+   * packages/apps/Email
+3bd9a83 email: imap push
+
+   * packages/apps/Mms
+f3a2464 Mms : Change 'Add to People' to 'Add to Contacts'
+6d7c762 Mms : Don't close single helper db instances
+
+   * packages/apps/Settings
+8fd0c5d Keep the content when change the orientation
+99d9e94 Exclude themes from being moved to external storage
+9fa03b3 apps2sd: Only allow "move to ___" if the media is mounted [1/2]
+6c771d2 apps2sd: Enable apps2sd for apps with unspecified install location
+c429e68 CryptKeeper improvements
+83b4a99 Settings: add marquee to Device administrators screen
+ef0a11d CryptKeeper: layout whole screen in bounds
+eae637c Settings: Livedisplay: Respect default values passed from CMHW
+
+   * packages/apps/UnifiedEmail
+1c2391e email: do not close the input attachment buffer in Conversion#parseBodyFields
+
+   * packages/providers/ThemesProvider
+d19fe5d [2/2] Recognized multiple wallpapers in theme
+4d4c54e Fix exception on themes without lockscreen images
+a8594f9 FIX: Preview table upgrade path
+
+   * packages/services/Telephony
+ec8c8a8 Fix CDMA vs. WCDMA typo in cs translations
+be6d6ee Telephony: Further improve network selection
+
+   * system/core
+c7b3725 Merge tag 'android-5.1.1_r3' into HEAD
+
+   * system/vold
+d578419 Adjust to r3 fs_mgr changes
+
+   * vendor/cm
+e190d66 CM: Update droiddoc template for cmsdk
+54d5498 APNs: 716: added Claro, Entel; 732: Fixed COMCEL
+7790c60 APNs: Add MVNO HoT Austria Internet and MMS APN configuration
+580ac6f APNs: moar MVNO's
+6a5733a APNs: Separate Simyo ES' entry (default and mms)
+ebda3cd apns: Added APN configuration for Suop MVNO (Spain)
+9635acd Added several APNs, updated a couple carrier names
+c352261 Split Smartfren MMS out
+88e99ec CM: Update styles for droiddoc.
+7ebb507 CM: Provide droiddoc cmsdk template.
+
+   * vendor/cmsdk
+0f8bcd7 Merge "CMSDK: Make sure to hide internal package from docs." into cm-12.1
+fb07983 CMSDK: Point to vendor/cm cmsdk templates for web.
+9389190 CMSDK: Make sure to hide internal package from docs.
+8c36c41 CMSDK: Update code comments for permission changes.
+
+===================================
+Since Mon May 18 06:11:49 UTC 2015
+===================================
+
+   * android
+b04680e 5.1.1_r1 -> 5.1.1_r2
+
+   * art
+1e14008 AArch64: Fix incorrect use of preceding LIR.
+47e066e AArch64: Addressing Cortex-A53 erratum 835769.
+
+   * device/samsung/klte-common
+138fa43 klte: Import target specific init script
+
+   * frameworks/base
+48686c8 [1/3] Implement better legacy support for themes
+afe6a2a PackageManager: don't attempt to get theme on core boot
+
+   * frameworks/opt/net/wifi
+10c17ae Silence verbose Wifi logging
+
+   * frameworks/opt/telephony
+2d1f7da Don't needlessly disable data.
+fe85370 Don't clear invalid defaults before SIM info of all SIMs is populated.
+
+   * kernel/samsung/klte
+ba558d7 kltechnduo: Add kltechnduo config
+
+   * packages/apps/CMFileManager
+08a24ff Prevent possible OutOfBoundsException
+
+   * packages/apps/Calendar
+80a93a5 Check date string size before trimming it
+
+   * packages/apps/Contacts
+a8f6bff Contacts : Remove silent option from ringtone
+
+   * packages/apps/LockClock
+5f8fa15 Fix weird bug in LockClock
+
+   * packages/apps/Settings
+ab062c1 Settings: improve Search
+
+   * packages/apps/SetupWizard
+b2ceb1f OOBE: fix NPE in choose data sim page
+
+   * packages/apps/ThemeChooser
+01431bd [3/3] Implement better legacy support for themes
+
+   * packages/apps/Trebuchet
+d24a8a9 Increase SDK Version to support Android for Work
+
+   * packages/inputmethods/LatinIME
+fd5ea5a make default overlay for "show correction suggestion"
+
+   * packages/providers/ThemesProvider
+d2d2ffd [2/3] Implement better legacy support for themes
+
+   * vendor/cmsdk
+2217bb4 CMSDK: Remove dead code.
+
+===================================
+Since Sun May 17 05:44:26 UTC 2015
+===================================
+
+   * device/samsung/klte-common
+6a34f3e klte:add kltechnduo
+
+   * frameworks/base
+bf04307 Adjust display inversion matrix to account for luminance
+30f1d75 Use the correct parent size to initialize animations
+67a37d1 Don't apply animation clip to dialog activities
+f78aec6 Fix lost singleton provider after force-stopping user or package.
+daa97a5 Also restart provider if there is external handle.
+3188368 Check caller status precisely when registering receiver.
+7f5f651 fix return value scale of notifyANR()
+eddab20 Prevent windows from freezing screen while timeout
+f30a941 Sometimes the application context is null
+3231781 Fix context leak
+8d14b15 Frameworks/base: Fix old code in MediaPlayer
+
+   * frameworks/opt/telephony
+2d7101c telephony: Release pending network requests when releasing a request
+

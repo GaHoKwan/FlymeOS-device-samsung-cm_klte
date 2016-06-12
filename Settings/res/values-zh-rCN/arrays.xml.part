@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="preferred_network_mode_choices_simple">
+        <item>全球模式</item>
+        <item>首选GSM/WCDMA/LTE</item>
+        <item>首选CDMA/EvDo/LTE</item>
+        <item>首选CDMA/EvDo/GSM/WCDMA</item>
+        <item>首选GSM/WCDMA</item>
+        <item>首选CDMA/EVDO</item>
+        <item>仅限EVDO</item>
+        <item>仅限CDMA</item>
+        <item>仅限WCDMA</item>
+        <item>仅限GSM</item>
+    </string-array>
+</resources>

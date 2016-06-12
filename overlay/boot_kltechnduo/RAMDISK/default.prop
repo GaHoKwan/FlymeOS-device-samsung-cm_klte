@@ -1,0 +1,21 @@
+#
+# ADDITIONAL_DEFAULT_PROPERTIES
+#
+ro.adb.secure=0
+ro.secure=0
+ro.allow.mock.location=0
+ro.debuggable=1
+ro.zygote=zygote32
+persist.sys.usb.config=mtp,adb
+dalvik.vm.dex2oat-Xms=64m
+dalvik.vm.dex2oat-Xmx=512m
+dalvik.vm.image-dex2oat-Xms=64m
+dalvik.vm.image-dex2oat-Xmx=64m
+ro.dalvik.vm.native.bridge=0
+
+# RIL
+ro.telephony.ril_class=KlteRIL
+persist.radio.multisim.config=dsds
+ro.multisim.simslotcount=2
+ro.sec_ril.version=50
+ro.multisim.samsung=true

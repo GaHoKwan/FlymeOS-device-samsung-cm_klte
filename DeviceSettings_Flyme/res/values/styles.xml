@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TextAppearance.Flyme.Widget.ActionBar.Title" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Title">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">@color/mz_action_menu_textcolor</item>
+    </style>
+    <style name="Theme.DeviceDefault.Light.Color.Grey" parent="@android:style/Theme.DeviceDefault.Light">
+        <item name="android:buttonStyle">@style/Widget.DeviceDefault.Light.Button.Color.Grey</item>
+        <item name="android:checkboxStyle">@style/Widget.DeviceDefault.Light.CompoundButton.CheckBox.Color.Grey</item>
+        <item name="android:progressBarStyleHorizontal">@style/Widget.DeviceDefault.Light.ProgressBar.Horizontal.Color.Grey</item>
+        <item name="android:seekBarStyle">@style/Widget.DeviceDefault.Light.SeekBar.Color.Grey</item>
+        <item name="android:ratingBarStyle">@style/Widget.DeviceDefault.Light.RatingBar.Color.Grey</item>
+        <item name="android:textColorHighlight">@color/mz_highlighted_text_light_color_grey</item>
+        <item name="android:textColorLink">@color/mz_theme_color_grey</item>
+        <item name="android:listChoiceIndicatorSingle">@drawable/mz_btn_check_single_color_grey</item>
+        <item name="android:listChoiceIndicatorMultiple">@drawable/mz_btn_check_multiple_color_grey</item>
+        <item name="android:textSelectHandleLeft">@drawable/mz_text_select_handle_left_color_grey</item>
+        <item name="android:textSelectHandleRight">@drawable/mz_text_select_handle_right_color_grey</item>
+        <item name="android:actionBarStyle">@style/Widget.DeviceDefault.Light.ActionBar.Color.Grey</item>
+        <item name="android:actionButtonStyle">@style/Widget.DeviceDefault.Light.ActionButton.Color.Grey</item>
+        <item name="android:actionModeCloseDrawable">@drawable/mz_titlebar_ic_back</item>
+        <item name="android:actionBarSize">48.0dip</item>
+        <item name="android:actionOverflowButtonStyle">@style/Widget.DeviceDefault.Light.ActionButton.Overflow.Color.Grey</item>
+        <item name="android:textColorAlertDialogListItem">@color/mz_popup_checked_text_color_grey</item>
+        <item name="android:homeAsUpIndicator">@drawable/mz_titlebar_ic_back</item>
+        <item name="android:editTextBackground">@drawable/mz_edit_text_background_color_grey</item>
+        <item name="android:actionMenuTextColor">@color/mz_action_menu_textcolor</item>
+        <item name="android:textCursorDrawable">@drawable/mz_text_cursor_light_color_grey</item>
+        <item name="android:actionOverflowMenuStyle">@style/Widget.Flyme.Light.PopupMenu.Overflow</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@color/mz_theme_color_grey</item>
+    </style>
+    <style name="Widget.DeviceDefault.CompoundButton.CheckButtonlessMultiple.Color.Grey" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/mz_btn_check_buttonless_multiple_color_grey</item>
+        <item name="android:focusable">false</item>
+        <item name="android:clickable">false</item>
+        <item name="android:button">@null</item>
+    </style>
+    <style name="Widget.DeviceDefault.Light.ActionBar.Color.Grey" parent="@android:style/Widget.DeviceDefault.Light.ActionBar">
+        <item name="android:progressBarStyle">@style/Widget.DeviceDefault.Light.ProgressBar.Horizontal.ActionBar.Color.Grey</item>
+        <item name="android:background">@drawable/mz_titlebar_background_bottom_color_grey</item>
+        <item name="android:titleTextStyle">@style/TextAppearance.Flyme.Widget.ActionBar.Title</item>
+        <item name="android:progressBarPadding">0.0dip</item>
+        <item name="android:backgroundStacked">@drawable/mz_titlebar_background_bottom_blank</item>
+        <item name="android:backgroundSplit">@drawable/mz_smartbar_background</item>
+    </style>
+    <style name="Widget.DeviceDefault.Light.ActionButton.Color.Grey" parent="@android:style/Widget.DeviceDefault.Light.ActionButton">
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">?android:selectableItemBackgroundBorderless</item>
+        <item name="android:paddingLeft">5.0dip</item>
+        <item name="android:paddingRight">5.0dip</item>
+        <item name="android:scaleType">center</item>
+        <item name="android:minWidth">34.0dip</item>
+        <item name="android:minHeight">48.0dip</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="Widget.DeviceDefault.Light.ActionButton.Overflow.Color.Grey" parent="@android:style/Widget.DeviceDefault.Light.ActionButton.Overflow">
+        <item name="android:background">?android:selectableItemBackgroundBorderless</item>
+        <item name="android:src">@drawable/mz_titlebar_ic_more</item>
+    </style>
+    <style name="Widget.DeviceDefault.Light.Button.Color.Grey" parent="@android:style/Widget.DeviceDefault.Light.Button">
+        <item name="android:background">@drawable/mz_btn_corner_default_color_grey</item>
+    </style>
+    <style name="Widget.DeviceDefault.Light.CompoundButton.CheckBox.Color.Grey" parent="@android:style/Widget.DeviceDefault.Light.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/mz_btn_check_multiple_color_grey</item>
+    </style>
+    <style name="Widget.DeviceDefault.Light.ProgressBar.Horizontal.ActionBar.Color.Grey" parent="@android:style/Widget.DeviceDefault.Light.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/mz_actionbar_progress_horizontal_color_grey</item>
+    </style>
+    <style name="Widget.DeviceDefault.Light.ProgressBar.Horizontal.Color.Grey" parent="@android:style/Widget.DeviceDefault.Light.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/mz_progress_horizontal_color_grey</item>
+    </style>
+    <style name="Widget.DeviceDefault.Light.RatingBar.Color.Grey" parent="@android:style/Widget.DeviceDefault.Light.RatingBar">
+        <item name="android:indeterminateDrawable">@drawable/mz_ratingbar_full_light_color_grey</item>
+        <item name="android:progressDrawable">@drawable/mz_ratingbar_full_light_color_grey</item>
+    </style>
+    <style name="Widget.DeviceDefault.Light.SeekBar.Color.Grey" parent="@android:style/Widget.DeviceDefault.Light.SeekBar">
+        <item name="android:indeterminateDrawable">@drawable/mz_scrubber_progress_horizontal_color_grey</item>
+        <item name="android:progressDrawable">@drawable/mz_scrubber_progress_horizontal_color_grey</item>
+        <item name="android:thumb">@drawable/mz_scrubber_control_selector_color_grey</item>
+    </style>
+    <style name="Widget.Flyme.Light.PopupMenu.Overflow" parent="@android:style/Widget.Material.PopupMenu.Overflow">
+        <item name="android:popupBackground">@drawable/mz_popup_bg_light</item>
+        <item name="android:dropDownHorizontalOffset">-7.0dip</item>
+        <item name="android:dropDownVerticalOffset">7.0dip</item>
+        <item name="android:overlapAnchor">false</item>
+        <item name="android:popupElevation">0.0dip</item>
+    </style>
+</resources>

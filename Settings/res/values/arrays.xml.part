@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="preferred_network_mode_choices_simple">
+        <item>Global</item>
+        <item>GSM/WCDMA/LTE</item>
+        <item>CDMA/EvDo/LTE</item>
+        <item>CDMA/EvDo/GSM/WCDMA</item>
+        <item>GSM/WCDMA auto</item>
+        <item>CDMA/EvDo auto</item>
+        <item>EvDo only</item>
+        <item>CDMA only</item>
+        <item>WCDMA only</item>
+        <item>GSM only</item>
+    </string-array>
+    <string-array name="preferred_network_mode_values_simple">
+        <item>10</item>
+        <item>9</item>
+        <item>8</item>
+        <item>7</item>
+        <item>3</item>
+        <item>4</item>
+        <item>6</item>
+        <item>5</item>
+        <item>2</item>
+        <item>1</item>
+    </string-array>
+</resources>

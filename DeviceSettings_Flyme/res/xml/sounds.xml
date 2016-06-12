@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:title="@string/camera_sound_title" android:key="camera_sound_key" android:defaultValue="true" />
+    <Preference android:enabled="false" android:title="@string/warning_title" android:summary="@string/camera_sound_warning_summary" />
+</PreferenceScreen>

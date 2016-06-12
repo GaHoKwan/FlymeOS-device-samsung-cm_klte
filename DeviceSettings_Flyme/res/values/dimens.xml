@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="mz_btn_stroke_width">1.0dip</dimen>
+    <dimen name="mz_cir_btn_radius_normal">50.0dip</dimen>
+</resources>
