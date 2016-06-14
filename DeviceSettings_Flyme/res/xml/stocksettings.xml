@@ -63,6 +63,9 @@
         </PreferenceScreen>
         <PreferenceScreen android:title="@string/updater_flash" android:key="flashota" android:summary="@string/updater_flash_summary" />
         <ListPreference android:title="@string/camera_switch_title" android:key="camera_switch_key" android:defaultValue="2" />
+        <Preference android:title="@string/qq_title" android:summary="@string/qq_summary">
+            <intent android:action="android.intent.action.VIEW" android:data="@string/qq_link" />
+        </Preference>
         <Preference android:title="@string/donate_title" android:summary="@string/donate_summary">
             <intent android:action="android.intent.action.VIEW" android:data="@string/donate_link" />
         </Preference>

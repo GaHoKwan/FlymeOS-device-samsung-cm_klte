@@ -23,7 +23,7 @@
     .locals 0
 
     .prologue
-    .line 1304
+    .line 1305
     iput-object p1, p0, Lcom/luo2888/flymesettings/DeviceSettings$2;->this$0:Lcom/luo2888/flymesettings/DeviceSettings;
 
     invoke-direct {p0}, Ljava/lang/Thread;-><init>()V
@@ -37,18 +37,18 @@
     .locals 4
 
     .prologue
-    .line 1310
+    .line 1311
     const-wide/16 v2, 0x1f4
 
     :try_start_0
     invoke-static {v2, v3}, Ljava/lang/Thread;->sleep(J)V
 
-    .line 1311
+    .line 1312
     invoke-static {}, Lcom/luo2888/flymesettings/utils/Tools;->CheckRoot()Z
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 1315
+    .line 1316
     :goto_0
     iget-object v1, p0, Lcom/luo2888/flymesettings/DeviceSettings$2;->this$0:Lcom/luo2888/flymesettings/DeviceSettings;
 
@@ -61,14 +61,14 @@
 
     invoke-virtual {v1, v2}, Landroid/os/Handler;->sendEmptyMessage(I)Z
 
-    .line 1316
+    .line 1317
     return-void
 
-    .line 1312
+    .line 1313
     :catch_0
     move-exception v0
 
-    .line 1313
+    .line 1314
     .local v0, "e":Ljava/lang/Exception;
     invoke-virtual {v0}, Ljava/lang/Exception;->printStackTrace()V
 

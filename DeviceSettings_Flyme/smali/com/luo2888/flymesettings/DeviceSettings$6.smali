@@ -26,7 +26,7 @@
     .locals 0
 
     .prologue
-    .line 1368
+    .line 1369
     iput-object p1, p0, Lcom/luo2888/flymesettings/DeviceSettings$6;->this$0:Lcom/luo2888/flymesettings/DeviceSettings;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,9 +42,9 @@
     .param p2, "which"    # I
 
     .prologue
-    .line 1371
+    .line 1372
     invoke-interface {p1}, Landroid/content/DialogInterface;->dismiss()V
 
-    .line 1372
+    .line 1373
     return-void
 .end method

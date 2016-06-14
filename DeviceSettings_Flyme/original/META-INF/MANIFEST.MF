@@ -123,7 +123,7 @@ Name: assets/inc-default.png
 SHA-256-Digest: 95XTFpbwGqeCg1Mo7i1h/dL8poGCJ9wKr82047538D4=
 
 Name: resources.arsc
-SHA-256-Digest: CMVoCxqcBUyxBrDjEarpfFuYtIXUI/dOZ+Mny68rQvQ=
+SHA-256-Digest: ZZ4yClMvZ5OkZ3Dejktiuz/5gIq+j+LL/pO1GH+XOfE=
 
 Name: res/drawable-xxhdpi-v4/mz_scrubber_control_disable_color_grey.pn
  g
@@ -134,7 +134,7 @@ Name: res/drawable-xxhdpi-v4/mz_text_select_handle_left_color_grey.9.p
 SHA-256-Digest: leEYj/4pYhAfEMjRRGNntrRIQx8NFXEOGBwWLkooStg=
 
 Name: AndroidManifest.xml
-SHA-256-Digest: Ce92fKRP3dBUG+0Gl5l5eFTsb9Xaz2OWIFcfw+og10c=
+SHA-256-Digest: 6mrq5GipuFBAsUkg1SGRYFttuerAYrI4TdGOdSCzFvs=
 
 Name: res/drawable-xxhdpi-v4/mz_smartbar_background_dark.9.png
 SHA-256-Digest: IJfVK+FlsS0aeQyfdUA/adZ8huQ5iSHlf0wofoZqy5Y=
@@ -191,7 +191,7 @@ Name: res/drawable-xxhdpi-v4/mz_titlebar_ic_more_dark.png
 SHA-256-Digest: b71Xn1i0kzEjoZgPiruld0vjncdCzGnbqlwnrqiSxf0=
 
 Name: classes.dex
-SHA-256-Digest: ec+Fpcu81zdRqma9mnyDR1bNCbRKATVX9bG6/c5q1+k=
+SHA-256-Digest: f/0FeXZwBqmVLVVkmWGj5KB8qHaZW759x7TwfVnGxpM=
 
 Name: res/drawable-xxhdpi-v4/mz_btn_check_button_off_disable_arrow_cir
  cle.9.png
@@ -201,7 +201,7 @@ Name: res/color/mz_action_menu_textcolor_grey.xml
 SHA-256-Digest: nsLFEpFmeivFMSfpiy5Ybl/kNfc3BypwKZcbkYDR0Cg=
 
 Name: res/xml/stocksettings.xml
-SHA-256-Digest: MdD7UxPTvS14pwe1LyuUPS+AbQ3/Rsj4XIbDiiwHoP8=
+SHA-256-Digest: YgzEMVMsSp8qEZoG8pxRHHdnPqdRsRipgjjVrIXSiuw=
 
 Name: res/drawable-xxhdpi-v4/mz_btn_check_buttonless_on_disable_color_
  grey.9.png
@@ -214,7 +214,7 @@ Name: res/color/mz_popup_checked_text_color_grey.xml
 SHA-256-Digest: R/KhpBObnTtbP/BnrBLSFZhN3J7LT+2+WxJ3wY7qGIU=
 
 Name: res/xml/sounds.xml
-SHA-256-Digest: EumociuySb/ea2BUNOenFeLDB+Zt35UXMxOLLLVfUjo=
+SHA-256-Digest: In+XZvQJcoWqqKMiDWxejhGwKBY4HOHjHPOOvq6WuTU=
 
 Name: res/color/mz_action_menu_textcolor.xml
 SHA-256-Digest: 8eC1xqFCxhxJPE3FoXR1jv7YpBooRO3rAgSx+nAFdPw=
@@ -259,7 +259,7 @@ Name: res/drawable-xxhdpi-v4/mz_btn_bigstar_on_color_grey.png
 SHA-256-Digest: FVJKge0G2D072NNNZZ5K+Nt0fVySO7J1DnpzPA6Lcos=
 
 Name: res/layout/preference_dialog_vibrator_tuning.xml
-SHA-256-Digest: y6TNWn7lQdNHbRAOnByVFI4AAXt7S9yX3hRVqFbRtZM=
+SHA-256-Digest: 11xKyr6GDGMag4JrMteYMU8zrz0TDGJnqcKwx1PVVVI=
 
 Name: assets/inc_pause.png
 SHA-256-Digest: Ql8qSUAZGeCWLhnzs2e/mJNbgcTwV0/5riFEXEJWJfc=

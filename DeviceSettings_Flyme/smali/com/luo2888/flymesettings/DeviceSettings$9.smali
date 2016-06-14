@@ -26,7 +26,7 @@
     .locals 0
 
     .prologue
-    .line 1381
+    .line 1382
     iput-object p1, p0, Lcom/luo2888/flymesettings/DeviceSettings$9;->this$0:Lcom/luo2888/flymesettings/DeviceSettings;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,11 +42,11 @@
     .param p2, "which"    # I
 
     .prologue
-    .line 1384
+    .line 1385
     const-string v0, "reboot"
 
     invoke-static {v0}, Lcom/luo2888/flymesettings/utils/Tools;->Shell(Ljava/lang/String;)I
 
-    .line 1385
+    .line 1386
     return-void
 .end method

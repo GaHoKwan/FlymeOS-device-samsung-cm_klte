@@ -37,7 +37,7 @@
 
 .field public static final cabc_summary_head:I = 0x7f07000a
 
-.field public static final cabc_title_head:I = 0x7f07008a
+.field public static final cabc_title_head:I = 0x7f07008c
 
 .field public static final camera_sound_summary_off:I = 0x7f07000b
 
@@ -117,13 +117,13 @@
 
 .field public static final hardware_keys_volume_keys_title:I = 0x7f070031
 
-.field public static final intensity_default_value:I = 0x7f07008b
+.field public static final intensity_default_value:I = 0x7f07008d
 
-.field public static final intensity_max_value:I = 0x7f07008c
+.field public static final intensity_max_value:I = 0x7f07008e
 
-.field public static final intensity_min_value:I = 0x7f07008d
+.field public static final intensity_min_value:I = 0x7f07008f
 
-.field public static final intensity_warning_threshold:I = 0x7f07008e
+.field public static final intensity_warning_threshold:I = 0x7f070090
 
 .field public static final kcal_invert_title_head:I = 0x7f070032
 
@@ -231,77 +231,83 @@
 
 .field public static final performance_warning_dialog_message:I = 0x7f070066
 
-.field public static final running_mode:I = 0x7f070067
+.field public static final qq_link:I = 0x7f070091
 
-.field public static final running_mode_summary_battery:I = 0x7f070068
+.field public static final qq_summary:I = 0x7f070067
 
-.field public static final running_mode_summary_performance:I = 0x7f070069
+.field public static final qq_title:I = 0x7f070068
 
-.field public static final running_mode_summary_standard:I = 0x7f07006a
+.field public static final running_mode:I = 0x7f070069
 
-.field public static final screen:I = 0x7f07006b
+.field public static final running_mode_summary_battery:I = 0x7f07006a
 
-.field public static final sounds:I = 0x7f07006c
+.field public static final running_mode_summary_performance:I = 0x7f07006b
 
-.field public static final success_root:I = 0x7f07006d
+.field public static final running_mode_summary_standard:I = 0x7f07006c
 
-.field public static final touchboost_freq:I = 0x7f07006e
+.field public static final screen:I = 0x7f07006d
 
-.field public static final touchboost_freq_summary_1190400:I = 0x7f07006f
+.field public static final sounds:I = 0x7f07006e
 
-.field public static final touchboost_freq_summary_1497600:I = 0x7f070070
+.field public static final success_root:I = 0x7f07006f
 
-.field public static final touchboost_freq_summary_1728000:I = 0x7f070071
+.field public static final touchboost_freq:I = 0x7f070070
 
-.field public static final touchboost_freq_summary_2265600:I = 0x7f070072
+.field public static final touchboost_freq_summary_1190400:I = 0x7f070071
 
-.field public static final touchboost_freq_summary_652800:I = 0x7f070073
+.field public static final touchboost_freq_summary_1497600:I = 0x7f070072
 
-.field public static final touchboost_freq_summary_960000:I = 0x7f070074
+.field public static final touchboost_freq_summary_1728000:I = 0x7f070073
 
-.field public static final tweak:I = 0x7f070075
+.field public static final touchboost_freq_summary_2265600:I = 0x7f070074
 
-.field public static final updater_check:I = 0x7f070076
+.field public static final touchboost_freq_summary_652800:I = 0x7f070075
 
-.field public static final updater_check_summary:I = 0x7f070077
+.field public static final touchboost_freq_summary_960000:I = 0x7f070076
 
-.field public static final updater_choose_abort:I = 0x7f070078
+.field public static final tweak:I = 0x7f070077
 
-.field public static final updater_flash:I = 0x7f070079
+.field public static final updater_check:I = 0x7f070078
 
-.field public static final updater_flash_summary:I = 0x7f07007a
+.field public static final updater_check_summary:I = 0x7f070079
 
-.field public static final updater_notice_message:I = 0x7f07007b
+.field public static final updater_choose_abort:I = 0x7f07007a
 
-.field public static final updater_notice_title:I = 0x7f07007c
+.field public static final updater_flash:I = 0x7f07007b
 
-.field public static final updater_ok:I = 0x7f07007d
+.field public static final updater_flash_summary:I = 0x7f07007c
 
-.field public static final vibrator_sysfs_file:I = 0x7f07008f
+.field public static final updater_notice_message:I = 0x7f07007d
 
-.field public static final vibrator_tuning_summary_head:I = 0x7f07007e
+.field public static final updater_notice_title:I = 0x7f07007e
 
-.field public static final vibrator_tuning_title:I = 0x7f07007f
+.field public static final updater_ok:I = 0x7f07007f
 
-.field public static final vibrator_warning:I = 0x7f070080
+.field public static final vibrator_sysfs_file:I = 0x7f070092
 
-.field public static final wakeup_mode:I = 0x7f070081
+.field public static final vibrator_tuning_summary_head:I = 0x7f070080
 
-.field public static final wakeup_mode_summary_0:I = 0x7f070082
+.field public static final vibrator_tuning_title:I = 0x7f070081
 
-.field public static final wakeup_mode_summary_1:I = 0x7f070083
+.field public static final vibrator_warning:I = 0x7f070082
 
-.field public static final wakeup_mode_summary_2:I = 0x7f070084
+.field public static final wakeup_mode:I = 0x7f070083
 
-.field public static final wakeup_mode_summary_3:I = 0x7f070085
+.field public static final wakeup_mode_summary_0:I = 0x7f070084
 
-.field public static final wakeup_mode_summary_4:I = 0x7f070086
+.field public static final wakeup_mode_summary_1:I = 0x7f070085
 
-.field public static final wakeup_mode_summary_5:I = 0x7f070087
+.field public static final wakeup_mode_summary_2:I = 0x7f070086
 
-.field public static final wakeup_mode_summary_6:I = 0x7f070088
+.field public static final wakeup_mode_summary_3:I = 0x7f070087
 
-.field public static final warning_title:I = 0x7f070089
+.field public static final wakeup_mode_summary_4:I = 0x7f070088
+
+.field public static final wakeup_mode_summary_5:I = 0x7f070089
+
+.field public static final wakeup_mode_summary_6:I = 0x7f07008a
+
+.field public static final warning_title:I = 0x7f07008b
 
 
 # direct methods

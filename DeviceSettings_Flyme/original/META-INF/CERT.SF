@@ -1,5 +1,5 @@
 Signature-Version: 1.0
-SHA-256-Digest-Manifest: kvpcp4metg/e8uaPRbVdMQc06jYvUJWZetq5FWH/3XQ=
+SHA-256-Digest-Manifest: Nw8is6xWQEO5w0+hMG5ebsWzZIT6P6eVomQYdTBTr0c=
 Created-By: 1.0 (Android)
 
 Name: res/drawable-xxhdpi-v4/mz_search_view_textfield_hover_color_grey
@@ -123,7 +123,7 @@ Name: assets/inc-default.png
 SHA-256-Digest: 8USN2vnJtoxvNl7vp/sAgcnEaBxqUChKw738ccyjRqk=
 
 Name: resources.arsc
-SHA-256-Digest: BMPOU4CUjUe0Ld91o/Axh7+dAJY2wM+q6Wr5UwFgTF0=
+SHA-256-Digest: EvHG5R/1V3aeHju7DkULmqtDSGrK/CgKQE3aUN9L/NU=
 
 Name: res/drawable-xxhdpi-v4/mz_scrubber_control_disable_color_grey.pn
  g
@@ -134,7 +134,7 @@ Name: res/drawable-xxhdpi-v4/mz_text_select_handle_left_color_grey.9.p
 SHA-256-Digest: lNG4mDyhwjRKjf30Ru3cbVIgYGeHMI1zGzR3Douc0Tg=
 
 Name: AndroidManifest.xml
-SHA-256-Digest: tEuLLZ8K/h7AO3925RqNrlu5uRlLSw7q56nt2+stTDE=
+SHA-256-Digest: aFRRaBtwSyCUP3jYilnQZLQKxls1hw5Mf4nL8c7dioY=
 
 Name: res/drawable/ic_launcher.png
 SHA-256-Digest: fQ/2jBxjMizxw7MA/LWaS2gnxCpKEkNXXNAHtoA+OXc=
@@ -191,7 +191,7 @@ Name: res/drawable-xxhdpi-v4/mz_titlebar_ic_more_dark.png
 SHA-256-Digest: jFRAVFUZh3h3Ic4vgGet/08hwrwLz41cnbrj7oVB7uE=
 
 Name: classes.dex
-SHA-256-Digest: 5XbRADvh/JsdVpAP/6TV+f+QEbNvg/oC0aQAP1vD3as=
+SHA-256-Digest: U3Hvr3eCLA2T950u8siicRCdREQRkfXmMyqu20tP7Wg=
 
 Name: res/drawable-xxhdpi-v4/mz_btn_check_button_off_disable_arrow_cir
  cle.9.png
@@ -201,7 +201,7 @@ Name: res/color/mz_action_menu_textcolor_grey.xml
 SHA-256-Digest: LrMCAzFEAtgC/4aq3bT3bHQ8sSjycCjPt8iCdaIB11w=
 
 Name: res/xml/stocksettings.xml
-SHA-256-Digest: LVOuY8+AFE1wKqcyBi+rIwDdC4VzYQdzQ/h4PE5LXUo=
+SHA-256-Digest: 3lRmCZCukgRM4BVT6l+hoNFy+P6YfuvuerbQ4rHd04c=
 
 Name: res/drawable-xxhdpi-v4/mz_btn_check_buttonless_on_disable_color_
  grey.9.png
@@ -214,7 +214,7 @@ Name: res/color/mz_popup_checked_text_color_grey.xml
 SHA-256-Digest: E2Dg8stk3894kX+w/iBDFqK4fwtK/gq1axQTipiDCWQ=
 
 Name: res/xml/sounds.xml
-SHA-256-Digest: EldLjIM8NeCIg1Be33qpOTFKhjJCFSevUavgQ4fqhck=
+SHA-256-Digest: ESrfVjY+TD8hA0ntdbcOJSPf4/ESN1P6vgWTu++oAwk=
 
 Name: res/color/mz_action_menu_textcolor.xml
 SHA-256-Digest: Z/2QbMHn+HNT0LgM6aMBgOQfsA06slsAzb4ihifvtNs=
@@ -259,7 +259,7 @@ Name: res/drawable-xxhdpi-v4/mz_btn_bigstar_on_color_grey.png
 SHA-256-Digest: Wi9f4n/PSfIo7nAwq/cIjxRLH4U+WE1zMhhDy8Srcn0=
 
 Name: res/layout/preference_dialog_vibrator_tuning.xml
-SHA-256-Digest: zjXm1ssgxYcN7gmTvP4epp4JCLRO2RkzDCWbvN+E26I=
+SHA-256-Digest: d5Heo4ogED3q8hNIt7690I0MREu5hCZn4rODsdmby5A=
 
 Name: assets/inc_pause.png
 SHA-256-Digest: CGaSRPMj0SnTt3LPkOd4QUOng9izoPz25DffpLwYlNg=

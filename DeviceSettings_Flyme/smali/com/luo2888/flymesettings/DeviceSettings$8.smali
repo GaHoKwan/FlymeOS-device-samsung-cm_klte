@@ -26,7 +26,7 @@
     .locals 0
 
     .prologue
-    .line 1387
+    .line 1388
     iput-object p1, p0, Lcom/luo2888/flymesettings/DeviceSettings$8;->this$0:Lcom/luo2888/flymesettings/DeviceSettings;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,7 +42,7 @@
     .param p2, "which"    # I
 
     .prologue
-    .line 1390
+    .line 1391
     iget-object v0, p0, Lcom/luo2888/flymesettings/DeviceSettings$8;->this$0:Lcom/luo2888/flymesettings/DeviceSettings;
 
     invoke-virtual {v0}, Lcom/luo2888/flymesettings/DeviceSettings;->getApplicationContext()Landroid/content/Context;
@@ -59,9 +59,9 @@
 
     invoke-virtual {v0}, Landroid/widget/Toast;->show()V
 
-    .line 1391
+    .line 1392
     invoke-interface {p1}, Landroid/content/DialogInterface;->dismiss()V
 
-    .line 1392
+    .line 1393
     return-void
 .end method

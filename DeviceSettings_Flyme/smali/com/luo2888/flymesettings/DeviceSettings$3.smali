@@ -23,7 +23,7 @@
     .locals 0
 
     .prologue
-    .line 1320
+    .line 1321
     iput-object p1, p0, Lcom/luo2888/flymesettings/DeviceSettings$3;->this$0:Lcom/luo2888/flymesettings/DeviceSettings;
 
     invoke-direct {p0}, Landroid/os/Handler;-><init>()V
@@ -38,7 +38,7 @@
     .param p1, "msg"    # Landroid/os/Message;
 
     .prologue
-    .line 1326
+    .line 1327
     iget-object v0, p0, Lcom/luo2888/flymesettings/DeviceSettings$3;->this$0:Lcom/luo2888/flymesettings/DeviceSettings;
 
     # getter for: Lcom/luo2888/flymesettings/DeviceSettings;->mDialog:Landroid/app/ProgressDialog;
@@ -48,21 +48,21 @@
 
     invoke-virtual {v0}, Landroid/app/ProgressDialog;->cancel()V
 
-    .line 1327
+    .line 1328
     invoke-static {}, Lcom/luo2888/flymesettings/utils/Tools;->CheckRoot()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 1328
+    .line 1329
     iget-object v0, p0, Lcom/luo2888/flymesettings/DeviceSettings$3;->this$0:Lcom/luo2888/flymesettings/DeviceSettings;
 
     invoke-virtual {v0}, Lcom/luo2888/flymesettings/DeviceSettings;->getBaseContext()Landroid/content/Context;
 
     move-result-object v0
 
-    const v1, 0x7f07006d
+    const v1, 0x7f07006f
 
     const/4 v2, 0x1
 
@@ -72,11 +72,11 @@
 
     invoke-virtual {v0}, Landroid/widget/Toast;->show()V
 
-    .line 1332
+    .line 1333
     :goto_0
     return-void
 
-    .line 1330
+    .line 1331
     :cond_0
     iget-object v0, p0, Lcom/luo2888/flymesettings/DeviceSettings$3;->this$0:Lcom/luo2888/flymesettings/DeviceSettings;
 

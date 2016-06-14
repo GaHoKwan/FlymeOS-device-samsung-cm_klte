@@ -102,6 +102,8 @@
     <string name="notification_light_title">通知指示灯</string>
     <string name="others">其他</string>
     <string name="performance_warning_dialog_message">性能模式时产生过高的温度可能会导致设备损坏，请注意！</string>
+    <string name="qq_summary">点击加入GalaxyS5讨论群</string>
+    <string name="qq_title">QQ群号:362618214</string>
     <string name="running_mode">运行模式</string>
     <string name="running_mode_summary_battery">当前模式：省电模式</string>
     <string name="running_mode_summary_performance">当前模式：性能模式</string>

@@ -26,7 +26,7 @@
     .locals 0
 
     .prologue
-    .line 1394
+    .line 1395
     iput-object p1, p0, Lcom/luo2888/flymesettings/DeviceSettings$7;->this$0:Lcom/luo2888/flymesettings/DeviceSettings;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,11 +42,11 @@
     .param p2, "which"    # I
 
     .prologue
-    .line 1397
+    .line 1398
     const-string v0, "busybox killall system_server"
 
     invoke-static {v0}, Lcom/luo2888/flymesettings/utils/Tools;->Shell(Ljava/lang/String;)I
 
-    .line 1398
+    .line 1399
     return-void
 .end method

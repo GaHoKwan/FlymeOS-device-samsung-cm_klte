@@ -103,6 +103,8 @@ Please abide strictly by the laws, rules and regulations of your area."</string>
     <string name="notification_light_title">Notification light</string>
     <string name="others">Others</string>
     <string name="performance_warning_dialog_message">Performance may cause too high temperature,it may damage your device. Use with care!</string>
+    <string name="qq_summary">Press to join GalaxyS5 QQ Group</string>
+    <string name="qq_title">QQ Group Number:362618214</string>
     <string name="running_mode">Running Mode</string>
     <string name="running_mode_summary_battery">Current: Battery Save</string>
     <string name="running_mode_summary_performance">Current: Performance</string>
@@ -143,5 +145,6 @@ Please abide strictly by the laws, rules and regulations of your area."</string>
     <string name="intensity_max_value">100</string>
     <string name="intensity_min_value">0</string>
     <string name="intensity_warning_threshold">75</string>
+    <string name="qq_link">http://dwz.cn/s5_luo2888</string>
     <string name="vibrator_sysfs_file">/sys/class/timed_output/vibrator/pwm_value</string>
 </resources>
