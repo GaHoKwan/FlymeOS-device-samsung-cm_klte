@@ -108,7 +108,7 @@ board_remove_apps := Camera
 # The command idtoname how to use: first use "apktool d source/system/framework/framework-res.apk other/TMP/framework-res",
 # and then use "idtoname other/TMP/framework-res/res/values/public_master.xml XXXX/smali"(XXXX is the directory where you decode board system apk).
 #-----------------------------------------------------------------------------
-board_modify_apps := TeleService Settings SystemUI
+board_modify_apps := TeleService Settings SystemUI Telecom
 
 ##############################################################################
 # The value decides which jar you want to modify, when the jar is based on the board framework jar.
@@ -179,5 +179,17 @@ override_property += \
 # Default: false
 #-----------------------------------------------------------------------------
 #PRODUCE_BLOCK_BASED_OTA := true
+
+##############################################################################
+# DeviceUpdater
+#-----------------------------------------------------------------------------
+BUILD_DATE := $(shell date +%Y%m%d)
+override_property += \
+    ro.ota.romname=FlymeOS5 \
+    ro.ota.device=klte \
+    ro.ota.codename=experimental \
+    ro.ota.version=FlymeOS5_$(BUILD_DATE) \
+    ro.ota.version_number=$(BUILD_DATE) \
+    ro.ota.manifest=http://luo2888.tk/flyme/ota.xml 
 
 include $(PORT_BUILD)/main.mk

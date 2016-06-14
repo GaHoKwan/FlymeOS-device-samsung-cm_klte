@@ -111,6 +111,20 @@ elif [ "`getstringvalue keylight_timout`" == "4" ]; then
     echo '7200' >sys/class/misc/btk_control/btkc_timeout
 fi
 
+if [ "`getstringvalue touchboost_freq`" == "0" ]; then
+    echo '1497600' > /sys/class/misc/touchboost_switch/touchboost_freq
+elif [ "`getstringvalue touchboost_freq`" == "1" ]; then
+    echo '652800' > /sys/class/misc/touchboost_switch/touchboost_freq
+elif [ "`getstringvalue touchboost_freq`" == "2" ]; then
+    echo '960000' > /sys/class/misc/touchboost_switch/touchboost_freq
+elif [ "`getstringvalue touchboost_freq`" == "3" ]; then
+    echo '1190400' > /sys/class/misc/touchboost_switch/touchboost_freq
+elif [ "`getstringvalue touchboost_freq`" == "4" ]; then
+    echo '1728000' > /sys/class/misc/touchboost_switch/touchboost_freq
+elif [ "`getstringvalue touchboost_freq`" == "5" ]; then
+    echo '2265600' > /sys/class/misc/touchboost_switch/touchboost_freq
+fi
+
 if [ "`getstringvalue running_mode`" == "0" ]; then
     /system/bin/running_mode_battery
 elif [ "`getstringvalue running_mode`" == "1" ]; then
