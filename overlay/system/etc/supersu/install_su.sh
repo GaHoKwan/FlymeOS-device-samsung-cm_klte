@@ -294,23 +294,6 @@ rm -f /data/app/com.m0narx.su*
 rm -f /data/app/eu.chainfire.supersu-*
 rm -f /data/app/eu.chainfire.supersu.apk
 
-# ui_print "- Creating space"
-if ($APKFOLDER); then
-  cp /system/app/Maps/Maps.apk /Maps.apk
-  cp /system/app/GMS_Maps/GMS_Maps.apk /GMS_Maps.apk
-  cp /system/app/YouTube/YouTube.apk /YouTube.apk
-  rm /system/app/Maps/Maps.apk
-  rm /system/app/GMS_Maps/GMS_Maps.apk
-  rm /system/app/YouTube/YouTube.apk
-else
-  cp /system/app/Maps.apk /Maps.apk
-  cp /system/app/GMS_Maps.apk /GMS_Maps.apk
-  cp /system/app/YouTube.apk /YouTube.apk
-  rm /system/app/Maps.apk
-  rm /system/app/GMS_Maps.apk
-  rm /system/app/YouTube.apk
-fi
-
 # ui_print "- Placing files"
 
 mkdir /system/bin/.ext
@@ -356,23 +339,6 @@ fi
 cp_perm 0 0 0744 $COM/99SuperSUDaemon /system/etc/init.d/99SuperSUDaemon
 echo 1 > /system/etc/.installed_su_daemon
 set_perm 0 0 0644 /system/etc/.installed_su_daemon
-
-# ui_print "- Restoring files"
-if ($APKFOLDER); then
-  cp_perm 0 0 0644 /Maps.apk /system/app/Maps/Maps.apk
-  cp_perm 0 0 0644 /GMS_Maps.apk /system/app/GMS_Maps/GMS_Maps.apk
-  cp_perm 0 0 0644 /YouTube.apk /system/app/YouTube/YouTube.apk
-  rm /Maps.apk
-  rm /GMS_Maps.apk
-  rm /YouTube.apk
-else
-  cp_perm 0 0 0644 /Maps.apk /system/app/Maps.apk
-  cp_perm 0 0 0644 /GMS_Maps.apk /system/app/GMS_Maps.apk
-  cp_perm 0 0 0644 /YouTube.apk /system/app/YouTube.apk
-  rm /Maps.apk
-  rm /GMS_Maps.apk
-  rm /YouTube.apk
-fi
 
 # ui_print "- Post-installation script"
 rm /system/toolbox
