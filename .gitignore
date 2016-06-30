@@ -11,6 +11,8 @@
 /overlay/system/app/QiHooStore/*
 /overlay/system/app/romuc/*
 /overlay/system/app/wandoujia/*
+Telecom/*
+Telecom.bak/*
 /vendor/aosp/*
 *.zip
 *.pyc
